@@ -1,4 +1,4 @@
-AOS.init({ duration: 1500 });
+// AOS.init({ duration: 1500 });
 
 document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
@@ -9,6 +9,19 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
         });
     });
 });
+
+let date = new Date();
+let hr = date.getHours();
+let mins = date.getMinutes();
+let meridian;
+let currentTime;
+
+meridian = (hr > 11) ? "PM" : "AM";
+hr = (hr > 12) ? (hr - 12) : hr;
+mins = (mins < 10) ? ("0" + mins) : mins;
+currentTime = hr + ":" + mins + " " + meridian;
+
+$(".current-time").html(currentTime);
 
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {

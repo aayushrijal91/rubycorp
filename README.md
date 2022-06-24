@@ -1,4 +1,4 @@
-# Landing page [RubyCorp](www.rubycorpplumbing.com.au/)
+# Landing page for [RubyCorp](www.rubycorpplumbing.com.au/)
 
 This is a landing page boilerplate that uses PHP scripting language
 
