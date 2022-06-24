@@ -83,4 +83,16 @@
 				</div>
 			</div>
 		</div>
+		<div class="banner">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-11">
+						<div class="row">
+							<div class="col-lg-6"></div>
+							<div class="col-lg-6"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
