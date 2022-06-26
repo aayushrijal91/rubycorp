@@ -20,5 +20,14 @@ header {
 
     .banner {
         background: linear-gradient(90deg, $dark 0 50%, $secondary 50% 100%);
+
+        .banner-right {
+            padding: 36px 0;
+            
+            .banner-buttons {
+                background-color: $secondary;
+                margin-top: -31px;
+            }
+        }
     }
 }

@@ -87,9 +87,48 @@
 			<div class="container-fluid">
 				<div class="row justify-content-center">
 					<div class="col-12 col-lg-11">
-						<div class="row">
-							<div class="col-lg-6"></div>
-							<div class="col-lg-6"></div>
+						<div class="row align-items-center">
+							<div class="col-lg-6 py-5">
+								<div class="text-white fw-800 h2 line-height-1"><span class="text-primary">We've Got You Covered On</span> All of Your Sydney Plumbing Needs.</div>
+								<div class="text-white h31 pb-4">Our expert technicians come with a wealth of knowledge to take on any job no matter how<br class="d-none d-xl-block"> large or small the job is.</div>
+								<?php
+								$cta = [
+									["24 Hour Emergency Service", "Anytime You Need Us, We Will Be There"],
+									["Flexible Payment Options", "Payment Plans with Brighte"],
+									["5 Star Google Reviews", "Providing Ourselves With Happy Clients"],
+									["Fully Licensed & Insured", "Fully Licensed And Insured Plumber In Sydney"]
+								];
+
+								foreach ($cta as $c) {
+								?>
+									<div class="row no-gutters align-items-center py-3">
+										<div class="col-auto pr-4"><?= renderImg("droplet.png", "icons") ?></div>
+										<div class="col">
+											<div class="fw-600 h16 text-white line-height-1"><?= $c[0] ?></div>
+											<div class="fw-300 h26 text-primary"><?= $c[1] ?></div>
+										</div>
+									</div>
+								<?php
+								}
+								?>
+							</div>
+							<div class="col-lg-6 d-flex justify-content-center align-items-center">
+								<div class="banner-right">
+									<?= renderImg("banner-promo.png", "lib") ?>
+									<div class="row no-gutters justify-content-center banner-buttons">
+										<div class="col-6">
+											<div class="row no-gutters">
+												<div class="col-6 pr-1">
+													<a href="" class="btn btn-block btn-white text-secondary rounded-pill h28 fw-500 line-height-1 py-3">Call Now</a>
+												</div>
+												<div class="col-6 pl-1">
+													<a href="" class="btn btn-block text-white border-white rounded-pill h28 fw-500 line-height-1 py-3">Enquire Now</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
