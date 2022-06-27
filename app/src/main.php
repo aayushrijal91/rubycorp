@@ -398,4 +398,24 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="payments">
+    <div class="container-fluid px-0">
+        <div class="row no-gutters justify-content-between align-items-center">
+            <div class="col-auto">
+                <div class="brighte text-center">
+                    <?= renderImg("brighte.png", "logo", "pb-3") ?>
+                    <div class="text-white h9 line-height-1">Get Started With</div>
+                    <div class="text-white h9 fw-800 line-height-1">Payment Plans with Brighte</div>
+                </div>
+            </div>
+            <div class="col-auto text-white line-height-1 h10">
+                We Accept All<br> Forms <span class="fw-700">Of Payments</span>
+            </div>
+            <div class="col-4">
+                <?= renderImg("payment-medium.png", "lib") ?>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include __DIR__ . '/footer.php'; ?>

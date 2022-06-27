@@ -259,3 +259,14 @@ section.brands {
         }
     }
 }
+
+section.payments {
+    background: imgUrl("payments.png") right bottom $tertiary;
+    background-size: contain;
+
+    .brighte {
+        background: imgUrl("brighte.png");
+        background-size: contain;
+        padding: 25px 48px;
+    }
+}
