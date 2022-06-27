@@ -71,7 +71,7 @@
 												</svg>
 											</div>
 											<div class="text-left">
-												<div class="h33">Call Us Today</div>
+												<div class="h34">Call Us Today</div>
 												<div class="h24 line-height-1 fw-700"><?= $phone_number ?></div>
 											</div>
 										</a>

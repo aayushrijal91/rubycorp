@@ -61,3 +61,49 @@ section.why-choose {
         }
     }
 }
+
+section.services {
+    padding: 75px 0 81px;
+
+    .service-card {
+        border-radius: 4px;
+        overflow: hidden;
+
+        .help {
+            margin-top: -3rem;
+
+            .icon {
+                height: 96px;
+                width: 96px;
+                border-radius: 50%;
+                background: $tertiary-dark;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .call-btn {
+                color: $primary;
+                font-size: 1.05rem; // 16.8px
+                padding: 10px 55px;
+                font-weight: 600;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+
+        .title {
+            background: $tertiary;
+            color: $white;
+            padding: 0 18px 24px 39.72px;
+        }
+    }
+
+    .quick-contact {
+        padding: 95px 68px 102px;
+        background: imgUrl('quick-contact.png');
+        background-size: contain;
+    }
+}
