@@ -23,6 +23,40 @@ currentTime = hr + ":" + mins + " " + meridian;
 
 $(".current-time").html(currentTime);
 
+$(".project").on('click', function (e) {
+    e.preventDefault();
+
+    $(".project").removeClass('active');
+    $(this).addClass('active');
+
+    let dName = $(this).attr('d-name');
+    $('.project-images').removeClass('active');
+    $(`#${dName}`).addClass('active');
+});
+
+$('.brands-slider').slick({
+    arrows: false,
+    dots: false,
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    accessibility: false,
+    autoplay: true,
+    variableWidth: true,
+    responsive: [{
+            breakpoint: 1700,
+            settings: {
+                slidesToShow: 6,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
+    ]
+});
+
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);
@@ -36,3 +70,62 @@ $('#return-to-top').on('click', () => {
         scrollTop: 0
     }, 500);
 });
+
+var currentTab = 0;
+showTab(currentTab);
+
+function showTab(n) {
+    var x = document.getElementsByClassName("tab");
+    x[n].style.display = "block";
+    if (n == 0) {
+        document.getElementById("prevBtn").style.display = "none";
+    } else {
+        document.getElementById("prevBtn").style.display = "inline";
+    }
+    if (n == (x.length - 1)) {
+        document.getElementById("nextBtn").innerHTML = "Submit";
+    } else {
+        document.getElementById("nextBtn").innerHTML = "Next";
+    }
+    fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+    var x = document.getElementsByClassName("tab");
+    if (n == 1 && !validateForm()) return false;
+    x[currentTab].style.display = "none";
+    currentTab = currentTab + n;
+    if (currentTab >= x.length) {
+        document.getElementById("regForm").submit();
+        return false;
+    }
+
+    showTab(currentTab);
+}
+
+function validateForm() {
+    var x, y, i, valid = true;
+    x = document.getElementsByClassName("tab");
+    y = x[currentTab].getElementsByTagName("input");
+
+    for (i = 0; i < y.length; i++) {
+        if (y[i].value == "") {
+            y[i].className += " invalid";
+            valid = false;
+        }
+    }
+
+    if (valid) {
+        document.getElementsByClassName("step")[currentTab].className += " finish";
+    }
+    return valid;
+}
+
+function fixStepIndicator(n) {
+    document.getElementById("progress-question-number").innerHTML = `Question ${n + 1} of 6`;
+    var i, x = document.getElementsByClassName("step");
+    for (i = 0; i < x.length; i++) {
+        x[i].className = x[i].className.replace(" active", "");
+    }
+    x[n].className += " active";
+}

@@ -10,6 +10,7 @@ $grey: #939393;
 $dark-grey: #a4a4a4;
 $light-grey: #c4c4c4;
 $black: #000000;
+$jet-black: #221F1F;
 $white: #ffffff;
 
 $theme-colors: () !default;
@@ -19,6 +20,7 @@ $theme-colors: map-merge(
         "primary-light": $primary-light,
         "secondary-light": $secondary-light,
         "black": $black,
+        "jet-black": $jet-black,
         "white": $white,
         "grey": $grey,
         "light-grey": $light-grey,
