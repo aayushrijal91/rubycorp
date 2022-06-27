@@ -3,4 +3,55 @@ include __DIR__ . '/../functions.php';
 include __DIR__ . '/header.php';
 ?>
 
+<section class="cta">
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div class="col-12 col-xl-11 pr-5">
+                <div class="row no-gutters justify-content-between align-items-center">
+                    <div class="col-auto text-white py-3">
+                        <div class="fw-400 h20">Check Out Our</div>
+                        <div class="fw-800 h11 line-height-1">5 Star Reviews</div>
+                    </div>
+                    <div class="col-auto">
+                        <?= renderImg("ratings.png", "lib") ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form">
+    <div class="container">
+        <div class="main-container">
+            <div class="row no-gutters justify-content-between align-items-center pb-3">
+                <div>
+                    <div class="fw-700 h2 line-height-1">Book A Plumber</div>
+                    <div class="h15 line-height-1">Same Day Service or <span class="text-primary fw-700 text-uppercase">$50 off your job</span></div>
+                </div>
+                <?= renderImg("logo.png", "logo") ?>
+            </div>
+            <div class="text-capitalize text-grey h30 fw-300 pt-3">Please fill in the 3-Step form & submit your job to be contacted in return. We are available 24/7 for emergency call-outs.</div>
+            <hr class="bg-light-grey">
+        </div>
+    </div>
+</section>
+
+<section class="why-choose">
+    <div class="container">
+        <div class="h3 text-center line-height-1 pb-4"><span class="fw-800 text-primary">Why Choose</span> RubyCorp Plumbing</div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4 py-3"><?= renderImg("pensioners-seniors.png", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-6 col-lg-4 py-3"><?= renderImg("servicing-sydney.png", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-6 col-lg-4 py-3"><?= renderImg("free-safety-inspections.png", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-6 col-lg-6 py-3"><?= renderImg("highly-reviewed.png", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-6 col-lg-6 py-3"><?= renderImg("professional-plumbers.png", "lib", "w-100") ?></div>
+            <div class="col-12 pt-3"><?= renderImg("24-hrs-emergency-service.png", "lib", "w-100") ?></div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 why-choose-btn">
+                <a href="tel: <?= $phone_number ?>" class="btn btn-block btn-primary rounded-pill h24">Call Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include __DIR__ . '/footer.php'; ?>
