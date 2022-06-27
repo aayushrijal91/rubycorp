@@ -1,6 +1,7 @@
 /* Font sizes */
 .h1 {
     font-size: 6.7475rem; // 107.96px
+    margin-bottom: 0;
 
     @include media-breakpoint-down(md) {
         font-size: 3rem;
@@ -13,6 +14,7 @@
 
 .h2 {
     font-size: 4.375rem; // 70px
+    margin-bottom: 0;
 
     @include media-breakpoint-down(lg) {
         font-size: 3rem;
@@ -25,6 +27,7 @@
 
 .h3 {
     font-size: 4rem; // 64px
+    margin-bottom: 0;
 
     @include media-breakpoint-down(xl) {
         font-size: 3rem;
@@ -41,6 +44,7 @@
 
 .h4 {
     font-size: 3.735rem; // 59.76px
+    margin-bottom: 0;
 
     @include media-breakpoint-down(md) {
         font-size: 2.5rem;
@@ -53,6 +57,7 @@
 
 .h5 {
     font-size: 3.59125rem; // 57.46px
+    margin-bottom: 0;
 
     @include media-breakpoint-down(xl) {
         font-size: 3rem;
@@ -69,6 +74,7 @@
 
 .h6 {
     font-size: 3.511875rem; // 56.19px
+    margin-bottom: 0;
 
     @include media-breakpoint-down(sm) {
         font-size: 1rem;

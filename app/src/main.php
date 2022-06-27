@@ -418,6 +418,94 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="testimonials">
+    <div class="container">
+        <div class="h3 text-center">What Our <span class="text-primary fw-800">Clients Say</span></div>
+        <div class="main-wrapper">
+            <div class="row justify-content-between">
+                <div class="col-lg-6 testimonial-main">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-auto pr-4">
+                            <svg width="57" height="50" viewBox="0 0 57 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.375 50H2.375C1.06341 50 0 48.9351 0 47.619V23.8095C0 11.8001 4.48908 3.85045 13.342 0.180193C14.5538 -0.319712 15.942 0.255764 16.4453 1.47067C16.9462 2.68672 16.3699 4.07831 15.158 4.58172C8.72535 7.2475 5.32867 12.7697 4.81842 21.4286H21.375C22.6866 21.4286 23.75 22.4946 23.75 23.8095V47.619C23.75 48.9351 22.6866 50 21.375 50Z" fill="#28A3E7" />
+                                <path d="M54.625 50H35.625C34.3134 50 33.25 48.9351 33.25 47.619V23.8095C33.25 11.8001 37.7391 3.85045 46.592 0.180193C47.8004 -0.319712 49.192 0.255764 49.6953 1.47065C50.1962 2.68669 49.6199 4.07829 48.408 4.58169C41.9753 7.2475 38.5787 12.7697 38.0684 21.4286H54.625C55.9366 21.4286 57 22.4946 57 23.8095V47.619C57 48.9351 55.9366 50 54.625 50Z" fill="#28A3E7" />
+                            </svg>
+                        </div>
+                        <div class="col-auto letter-spacing-n02 fw-600 h3 line-height-1">Clients Testimonials</div>
+                    </div>
+                    <div class="testimonial-slider">
+                        <div class="testimonial-slider-content">
+                            <div class="quote">“well priced and definitely someone you can trust”</div>
+                            <div class="text-grey h35">
+                                <p>Justin is a great bloke to deal with, very professional, honest, on time and his work is top notch unlike most of the dodgy plumbers you find in Sydney. He is also well priced and definitely someone you can trust to do an honest and great job. He went a long way in clearing the blockage in my sewer line from both sides of the entry points, even went the extra mile to remove the toilet.</p>
+
+                                <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
+                            </div>
+                            <div class="letter-spacing-n02 fw-700 text-black h30 line-height-1 pt-5">James</div>
+                            <div class="">
+                                <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
+                                    <path d="M30.6692 0L33.3706 5.12016L39.075 6.10716L35.0402 10.2586L35.8642 15.9888L30.6692 13.4343L25.4741 15.9888L26.2982 10.2586L22.2634 6.10716L27.9677 5.12016L30.6692 0Z" fill="#FAE056" />
+                                    <path d="M52.5 0L55.2014 5.12016L60.9058 6.10716L56.871 10.2586L57.695 15.9888L52.5 13.4343L47.3049 15.9888L48.129 10.2586L44.0942 6.10716L49.7986 5.12016L52.5 0Z" fill="#FAE056" />
+                                    <path d="M74.331 0L77.0325 5.12016L82.7368 6.10716L78.702 10.2586L79.5261 15.9888L74.331 13.4343L69.136 15.9888L69.96 10.2586L65.9253 6.10716L71.6296 5.12016L74.331 0Z" fill="#FAE056" />
+                                    <path d="M96.1616 0L98.863 5.12016L104.567 6.10716L100.533 10.2586L101.357 15.9888L96.1616 13.4343L90.9665 15.9888L91.7906 10.2586L87.7558 6.10716L93.4602 5.12016L96.1616 0Z" fill="#FAE056" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="testimonial-slider-content">
+                            <div class="quote">“well priced and definitely someone you can trust”</div>
+                            <div class="text-grey h35">
+                                <p>Justin is a great bloke to deal with, very professional, honest, on time and his work is top notch unlike most of the dodgy plumbers you find in Sydney. He is also well priced and definitely someone you can trust to do an honest and great job. He went a long way in clearing the blockage in my sewer line from both sides of the entry points, even went the extra mile to remove the toilet.</p>
+
+                                <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
+                            </div>
+                            <div class="letter-spacing-n02 fw-700 text-black h30 line-height-1 pt-5">Charles</div>
+                            <div class="">
+                                <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
+                                    <path d="M30.6692 0L33.3706 5.12016L39.075 6.10716L35.0402 10.2586L35.8642 15.9888L30.6692 13.4343L25.4741 15.9888L26.2982 10.2586L22.2634 6.10716L27.9677 5.12016L30.6692 0Z" fill="#FAE056" />
+                                    <path d="M52.5 0L55.2014 5.12016L60.9058 6.10716L56.871 10.2586L57.695 15.9888L52.5 13.4343L47.3049 15.9888L48.129 10.2586L44.0942 6.10716L49.7986 5.12016L52.5 0Z" fill="#FAE056" />
+                                    <path d="M74.331 0L77.0325 5.12016L82.7368 6.10716L78.702 10.2586L79.5261 15.9888L74.331 13.4343L69.136 15.9888L69.96 10.2586L65.9253 6.10716L71.6296 5.12016L74.331 0Z" fill="#FAE056" />
+                                    <path d="M96.1616 0L98.863 5.12016L104.567 6.10716L100.533 10.2586L101.357 15.9888L96.1616 13.4343L90.9665 15.9888L91.7906 10.2586L87.7558 6.10716L93.4602 5.12016L96.1616 0Z" fill="#FAE056" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters justify-content-between align-items-end">
+                        <div class="col-3">
+                            <div class="slick-slider-dots"></div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-auto d-flex pr-3">
+                                    <div id="arrow-prev" class="testimonial-arrow pr-1">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.0488 9L11.2166 15.8321L18.0488 22.6643" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            <rect x="0.5" y="0.5" width="30.2656" height="30.2656" rx="4.5" stroke="currentColor" />
+                                        </svg>
+                                    </div>
+                                    <div id="arrow-next" class="testimonial-arrow">
+                                        <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M13 9L19.8322 15.8321L13 22.6643" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            <rect x="1.29785" y="0.5" width="30.2656" height="30.2656" rx="4.5" stroke="currentColor" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <?= renderImg("google.png", "icons") ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <?= renderImg("testimonial.png", "lib") ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="gmb">
     <div class="container">
         <div class="row">

@@ -64,7 +64,8 @@ section.form {
                 }
             }
 
-            input, select {
+            input,
+            select {
                 height: 46px;
                 border: 1px solid $light-grey;
                 border-radius: 5px;
@@ -84,7 +85,6 @@ section.form {
 
                 &:hover {
                     opacity: 0.8;
-
                 }
             }
 
@@ -268,6 +268,69 @@ section.payments {
         background: imgUrl("brighte.png");
         background-size: contain;
         padding: 25px 48px;
+    }
+}
+
+section.testimonials {
+    padding: 43px 0 114px;
+    
+    .main-wrapper {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        .testimonial-main {
+            padding: 98px 65px;
+
+            .testimonial-slider {
+                .testimonial-slider-content {
+                    .quote {
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        font-style: italic;
+                        color: $grey;
+                        border-left: 6px solid $primary;
+                        line-height: 1;
+                        padding-left: 22px;
+                        margin: 60px 0 25px;
+                    }
+                }
+            }
+
+            .testimonial-arrow {
+                color: $light-grey;
+                cursor: pointer;
+                transition: 0.2s all;
+
+                &:hover {
+                    color: $dark;
+                }
+            }
+
+            .slick-slider-dots .slick-dots {
+                bottom: 0px;
+                display: flex;
+                list-style-type: none;
+
+                li {
+                    margin: 0 0.25rem;
+                }
+
+                button {
+                    display: block;
+                    width: 25px;
+                    height: 4px;
+                    padding: 0;
+                    border: none;
+                    border-radius: 50px;
+                    background-color: $light;
+
+                    text-indent: -9999px;
+                }
+
+                li.slick-active button {
+                    background-color: $primary;
+                }
+            }
+        }
     }
 }
 

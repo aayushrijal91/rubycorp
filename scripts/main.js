@@ -34,28 +34,40 @@ $(".project").on('click', function (e) {
     $(`#${dName}`).addClass('active');
 });
 
-$('.brands-slider').slick({
-    arrows: false,
-    dots: false,
-    slidesToShow: 7,
-    slidesToScroll: 1,
-    accessibility: false,
-    autoplay: true,
-    variableWidth: true,
-    responsive: [{
-            breakpoint: 1700,
-            settings: {
-                slidesToShow: 6,
+$(() => {
+    $('.brands-slider').slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        accessibility: false,
+        autoplay: true,
+        variableWidth: true,
+        responsive: [{
+                breakpoint: 1700,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                }
             }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-            }
-        }
-    ]
-});
+        ]
+    });
+
+    $(".testimonial-slider").slick({
+        dots: true,
+        appendDots: $('.slick-slider-dots'),
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow: $("#arrow-next"),
+        prevArrow: $("#arrow-prev"),
+    })
+})
+
 
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
