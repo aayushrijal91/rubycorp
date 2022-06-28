@@ -34,9 +34,9 @@
 									<?= renderImg("logo.png", "logo") ?>
 								</a>
 							</div>
-							<div class="col-12 col-lg-auto btn-wrapper">
+							<div class="col-12 col-lg col-xl-auto btn-wrapper">
 								<div class="row justify-content-center justify-content-md-between justify-content-lg-end no-gutters align-items-center">
-									<div class="col-12 col-md-auto d-none d-md-block">
+									<div class="col-12 col-md-auto d-none d-md-block d-lg-none d-xl-block">
 										<div class="row no-gutters justify-content-center py-2 px-3 h25">
 											<div class="col-auto pr-4 pr-lg-5">
 												<div class="pulse pulsating-circle"></div>
@@ -129,13 +129,13 @@
 								<div class="banner-right">
 									<?= renderImg("banner-promo.png", "lib") ?>
 									<div class="row no-gutters justify-content-center banner-buttons">
-										<div class="col-8 col-md-6">
+										<div class="col-8 col-md-6 col-lg-9 col-xl-6">
 											<div class="row no-gutters">
 												<div class="col-6 pr-1">
-													<a href="" class="btn btn-block btn-white text-secondary rounded-pill h28 fw-500 line-height-1 py-2 py-md-3">Call Now</a>
+													<a href="tel: <?= $phone_number ?>" class="btn btn-block btn-white text-secondary rounded-pill h28 fw-500 line-height-1 py-2 py-md-3">Call Now</a>
 												</div>
 												<div class="col-6 pl-1">
-													<a href="" class="btn btn-block btn-secondary text-white border-white rounded-pill h28 fw-500 line-height-1 py-2 py-md-3">Enquire Now</a>
+													<a href="#form" class="btn btn-block btn-secondary text-white border-white rounded-pill h28 fw-500 line-height-1 py-2 py-md-3">Enquire Now</a>
 												</div>
 											</div>
 										</div>

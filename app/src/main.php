@@ -12,7 +12,7 @@ include __DIR__ . '/header.php';
                         <div class="fw-400 h20">Check Out Our</div>
                         <div class="fw-800 h11 line-height-1">5 Star Reviews</div>
                     </div>
-                    <div class="col-12 col-xl-9 col-xxl-auto d-none d-md-block">
+                    <div class="col-12 col-lg-8 col-xl-9 col-xxl-auto d-none d-md-block">
                         <?= renderImg("ratings.png", "lib") ?>
                     </div>
                     <div class="col-12 col-md-auto d-md-none pb-4">
@@ -24,7 +24,7 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
-<section class="form">
+<section class="form" id="form">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
@@ -126,7 +126,7 @@ include __DIR__ . '/header.php';
                             </div>
                             <div class="col-12 mt-5">
                                 <div class="row no-gutters justify-content-between">
-                                    <div class="col-12 col-md-6 col-lg-5 d-none d-md-flex align-items-center">
+                                    <div class="col-12 col-md-6 col-lg-7 col-xl-5 d-none d-md-flex align-items-center">
                                         <svg width="31" height="38" viewBox="0 0 31 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0266 0.490936C13.2027 0.611616 11.9014 0.93122 11.1997 1.18531C6.76985 2.78881 3.49902 6.61211 2.48805 11.3682C2.24766 12.4992 2.16076 14.6089 2.30681 15.7689L2.41441 16.6239L2.16438 16.8143C1.35304 17.4323 0.704107 18.5229 0.54656 19.5335C0.427471 20.2968 0.428002 33.4201 0.547179 34.2441C0.801005 36.0001 2.29302 37.4965 4.0362 37.7432C4.88185 37.863 26.2788 37.8616 27.1113 37.7418C27.4517 37.6929 27.9818 37.5351 28.2894 37.3915C28.9695 37.0737 29.8614 36.2151 30.1949 35.557C30.6907 34.5786 30.6893 34.6028 30.6893 26.8715C30.6893 19.1076 30.6896 19.1125 30.1812 18.1777C29.9355 17.7258 29.1878 16.8856 28.8927 16.7296C28.7422 16.65 28.7369 16.5925 28.8264 16.0158C28.9636 15.1313 28.9463 13.1005 28.7931 12.107C27.9051 6.34821 23.75 1.88366 18.1377 0.657767C17.4935 0.517106 14.6389 0.4012 14.0266 0.490936ZM17.5093 5.56321C21.8151 6.61715 24.649 11.0737 23.9184 15.6423L23.8617 15.997H15.5624C8.98285 15.997 7.26283 15.9741 7.26159 15.8865C7.26071 15.8258 7.22242 15.4181 7.17636 14.9807C6.89699 12.3243 7.91662 9.57324 9.87862 7.68966C11.1885 6.43211 12.4762 5.76603 14.249 5.42892C15.1071 5.2658 16.5345 5.32459 17.5093 5.56321ZM16.499 21.3488C17.6276 21.6428 18.5341 22.4039 19.0482 23.489C19.3132 24.0487 19.3312 24.1483 19.3312 25.0591C19.3312 25.9675 19.3128 26.0705 19.0514 26.6222C18.7494 27.2597 18.2065 27.9092 17.7291 28.2043L17.4304 28.3889L17.4284 30.0394C17.4262 31.9132 17.3619 32.1726 16.7714 32.6912C16.3596 33.0526 16.1158 33.1487 15.6094 33.1487C14.792 33.1487 14.0707 32.6274 13.8474 31.8752C13.755 31.5642 13.717 30.9983 13.7168 29.9277L13.7164 28.4187L13.2273 28.0409C11.8771 26.9982 11.3871 25.0129 12.1039 23.4899C12.9062 21.7853 14.7417 20.8911 16.499 21.3488Z" fill="#939393" />
                                         </svg>
@@ -183,7 +183,7 @@ include __DIR__ . '/header.php';
 <section class="services">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9 col-lg-7 col-xxl-6 text-center h4 fw-700 line-height-1 text-dark-grey"><span class="text-primary">We Offer</span> Competitive Rates <span class="text-primary">And</span> Fast Service.</div>
+            <div class="col-md-9 col-xl-7 col-xxl-6 text-center h4 fw-700 line-height-1 text-dark-grey"><span class="text-primary">We Offer</span> Competitive Rates <span class="text-primary">And</span> Fast Service.</div>
             <div class="col-12 text-center text-dark-grey h32 pt-3 pb-4 pb-md-5">Our plumbers service Sydney-wide including Western Sydney, Eastern Sydney, Sydney CBD, and Greater Sydney.</div>
         </div>
         <?php $services = [
@@ -221,7 +221,7 @@ include __DIR__ . '/header.php';
 
         <div class="row">
             <?php foreach ($services as $service) { ?>
-                <div class="col-12 col-md-6 col-lg-4 py-3">
+                <div class="col-12 col-md-6 col-xl-4 py-3">
                     <div class="service-card">
                         <?= renderImg($service["img"] . ".png", "lib", "w-100") ?>
                         <div class="title">
@@ -246,16 +246,16 @@ include __DIR__ . '/header.php';
         </div>
         <div class="quick-contact mt-3">
             <div class="row justify-content-between align-items-center">
-                <div class="col col-lg-auto">
+                <div class="col col-xl-auto">
                     <div class="letter-spacing-n02 fw-800 line-height-1 h7"><span class="text-primary">24 Hour</span> Emergency Service</div>
                     <div class="letter-spacing-n02 fw-400 h33"><span class="fw-600">Our Team Are On Stand By For The Event Of An Emergency</span> You Can Count On RubyCrop For Rapid Response.</div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-6 col-lg-4">
+                <div class="col-12 col-md-4">
                     <div class="row no-gutters">
-                        <div class="col-lg-6 pr-lg-1">
+                        <div class="col-xl-6 pr-xl-1">
                             <a href="tel: <?= $phone_number ?>" class="btn btn-block btn-primary text-white rounded-pill fw-800 h24 line-height-1 py-3">Call Now</a>
                         </div>
-                        <div class="col-lg-6 pt-2 pt-lg-0 pl-lg-1">
+                        <div class="col-xl-6 pt-2 pt-xl-0 pl-xl-1">
                             <a href="#form" class="btn btn-block btn-secondary text-white rounded-pill fw-800 h24 line-height-1 py-3">Enquire Now</a>
                         </div>
                     </div>
@@ -269,7 +269,7 @@ include __DIR__ . '/header.php';
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 px-md-5">
-                <div class="text-center text-white text-uppercase h3 fw-700 pb-4 pb-md-0 pt-lg-5">Our Projects</div>
+                <div class="text-center text-white text-uppercase h3 fw-700 pb-4 pb-md-0 pt-xxl-5">Our Projects</div>
                 <div class="text-dark-grey text-center h30 pb-4 d-none d-md-block">With over <span class="fw-700">10 Years</span> in the maintenance industry we have provided a leading plumbing service across Sydney and surrounding areas.</div>
                 <div class="project active" d-name="recent-projects">
                     <div class="row justify-content-between align-items-center">
@@ -410,10 +410,10 @@ include __DIR__ . '/header.php';
                     <div class="text-white h9 fw-800 line-height-1">Payment Plans with Brighte</div>
                 </div>
             </div>
-            <div class="col col-xxl-auto text-white line-height-1 h10 p-4 py-lg-0">
+            <div class="col col-xxl-auto text-white line-height-1 h10 p-4 py-xl-0">
                 We Accept All<br> Forms <span class="fw-700">Of Payments</span>
             </div>
-            <div class="col-6 col-xl-3 col-xxl-4 p-4 py-lg-0 px-xxl-0">
+            <div class="col-6 col-xl-3 col-xxl-4 p-4 py-xl-0 px-xxl-0">
                 <?= renderImg("payment-medium.png", "lib") ?>
             </div>
         </div>
@@ -424,8 +424,8 @@ include __DIR__ . '/header.php';
     <div class="container">
         <div class="h3 text-center d-none d-md-block">What Our <span class="text-primary fw-800">Clients Say</span></div>
         <div class="main-wrapper">
-            <div class="row justify-content-end justify-content-lg-between">
-                <div class="col-lg-6 col-xxl-7 testimonial-main">
+            <div class="row justify-content-end justify-content-lg-between align-items-lg-end align-items-xl-start">
+                <div class="col-lg-7 col-xl-6 col-xxl-7 testimonial-main">
                     <div class="row no-gutters align-items-xxl-center">
                         <div class="col-auto pr-4">
                             <svg width="57" height="50" viewBox="0 0 57 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -500,7 +500,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-auto col-xl col-xxl-auto testimonial-img">
+                <div class="col-auto col-lg col-xxl-auto testimonial-img">
                     <?= renderImg("testimonial.png", "lib", "w-100") ?>
                 </div>
             </div>
