@@ -118,8 +118,24 @@ include __DIR__ . '/header.php';
                                             <input type="text" class="form-control" placeholder="Message" oninput="this.className = 'form-control rounded-0'" name="message" required>
                                         </div>
                                         <div class="col-12 pt-3 pt-md-4">
-                                            <label for="">Upload Photos You Think May help prior to visiting</label>
-                                            <input type="tel" class="form-control" placeholder="e.g. 1234" oninput="this.className = 'form-control rounded-0'" name="postcode">
+                                            <div class="row no-gutters justify-content-between align-items-center">
+                                                <div class="col-12 col-md-auto pr-4">
+                                                    <label for="file-upload" class="my-0" id="file-label">
+                                                        <div class="bg-light rounded-0 line-height-2 h30 fw-600 font-poppins py-3 px-4">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 20 20">
+                                                                <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z" />
+                                                            </svg> Attach File
+                                                        </div>
+                                                    </label>
+                                                    <input id="file-upload" class="form-control rounded-0" type="file" name="uploadedFile">
+                                                </div>
+                                                <div class="col-12 col-md pt-3 pt-md-0">
+                                                    <div class="h30 font-poppins">Improved Quote Accuracy (optional)</div>
+                                                    <div class="text-dark-grey h35 font-poppins fw-300" id="uploaded-file-name">Send
+                                                        us an image of your problem, so we can provide you an accurate quote
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

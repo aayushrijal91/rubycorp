@@ -141,3 +141,12 @@ function fixStepIndicator(n) {
     }
     x[n].className += " active";
 }
+
+$("#file-upload").on('change', function(){
+    var file = $(this).val();
+    if (file != "") {
+        var theSplit = file.split('\\');
+        var fileName = theSplit[theSplit.length - 1];
+        $('#uploaded-file-name').html(fileName.substring(0, 50));
+    }
+});
