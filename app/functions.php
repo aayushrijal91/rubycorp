@@ -2,7 +2,7 @@
 include __DIR__ . '/env.php';
 
 $site = "Rubycorp Plumbing Service";
-$phone_number = "1300 000 000";
+$phone_number = "0480 007 198";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
 $no_reply_email = 'no-reply@rubycorpplumbing.com.au';
