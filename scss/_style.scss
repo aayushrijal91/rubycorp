@@ -179,7 +179,9 @@ section.form {
 }
 
 section.why-choose {
-    padding: 76px 0;
+    @include media-breakpoint-up(md) {
+        padding: 76px 0;
+    }
 
     .why-choose-btn {
         margin-top: -28px;
@@ -189,46 +191,70 @@ section.why-choose {
             color: $white;
             text-transform: uppercase;
             padding: 13px 16px;
+
+            @include media-breakpoint-down(sm) {
+                padding: 20px 16px;
+            }
         }
     }
 }
 
 section.services {
-    padding: 75px 0 81px;
+    padding: 68px 0 16px;
+
+    @include media-breakpoint-up(md){
+        padding: 75px 0 81px;
+    }
 
     .service-card {
         border-radius: 4px;
         overflow: hidden;
 
-        .help {
-            margin-top: -3rem;
-
-            .icon {
-                height: 96px;
-                width: 96px;
-                border-radius: 50%;
-                background: $tertiary-dark;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .call-btn {
-                color: $primary;
-                font-size: 1.05rem; // 16.8px
-                padding: 10px 55px;
-                font-weight: 600;
-
-                @include media-breakpoint-down(sm) {
-                    font-size: 0.875rem;
-                }
-            }
-        }
-
+        
         .title {
             background: $tertiary;
             color: $white;
-            padding: 0 18px 24px 39.72px;
+            padding: 0 13.95px 18.4px 30.6px;
+            
+            @include media-breakpoint-up(md){
+                padding: 0 18px 24px 39.72px;
+            }
+
+            .help {
+                margin-top: -3rem;
+    
+                .icon {
+                    height: 96px;
+                    width: 96px;
+                    border-radius: 50%;
+                    background: $tertiary-dark;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                @include media-breakpoint-down(sm) {
+                    margin-top: -2.3125rem;
+
+                    .icon{
+                        height: 74px;
+                        width: 74px;
+                    }
+                }
+    
+                .call-btn {
+                    color: $primary;
+                    font-size: 1.05rem; // 16.8px
+                    font-weight: 600;
+                    padding: 10px 55px;
+    
+                    @include media-breakpoint-down(sm) {
+                        font-size: 0.875rem;
+                        padding: 7px 45px;
+                    }
+                }
+            }
         }
     }
 
@@ -236,12 +262,20 @@ section.services {
         padding: 95px 68px 102px;
         background: imgUrl("quick-contact.png");
         background-size: contain;
+
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
     }
 }
 
 section.projects {
     background-color: $jet-black;
-    padding: 113px 0;
+    padding: 41px 0 14px;
+
+    @include media-breakpoint-up(md) {
+        padding: 113px 0;
+    }
 
     .project {
         color: $light-grey;
@@ -254,6 +288,8 @@ section.projects {
 
         @include media-breakpoint-down(sm) {
             font-size: 0.875rem;
+            padding: 8px 19px;
+            margin: 8px 0;
         }
 
         &.active {
@@ -278,7 +314,11 @@ section.projects {
 }
 
 section.brands {
-    padding: 48px 0;
+    padding: 29px 0 53px;
+    
+    @include media-breakpoint-up(md){
+        padding: 48px 0;
+    }
 
     .brands-slider {
         .slick-track {

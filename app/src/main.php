@@ -162,15 +162,16 @@ include __DIR__ . '/header.php';
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
-                <div class="h3 text-center line-height-1 pb-4"><span class="fw-800 text-primary">Why Choose</span> RubyCorp Plumbing</div>
+                <div class="d-none d-md-block h3 text-center line-height-1 pb-4"><span class="fw-800 text-primary">Why Choose</span> RubyCorp Plumbing</div>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 col-lg-4 py-3"><?= renderImg("pensioners-seniors.png", "lib", "w-100") ?></div>
-                    <div class="col-12 col-md-6 col-lg-4 py-3"><?= renderImg("servicing-sydney.png", "lib", "w-100") ?></div>
-                    <div class="col-12 col-md-6 col-lg-4 py-3"><?= renderImg("free-safety-inspections.png", "lib", "w-100") ?></div>
-                    <div class="col-12 col-md-6 col-lg-6 py-3"><?= renderImg("highly-reviewed.png", "lib", "w-100") ?></div>
-                    <div class="col-12 col-md-6 col-lg-6 py-3"><?= renderImg("professional-plumbers.png", "lib", "w-100") ?></div>
-                    <div class="col-12 pt-3"><?= renderImg("24-hrs-emergency-service.png", "lib", "w-100") ?></div>
-                    <div class="col-12 col-md-4 col-lg-3 col-xl-2 why-choose-btn">
+                    <div class="col-12 col-md-6 col-lg-4 py-1 py-md-3"><?= renderImg("pensioners-seniors.png", "lib", "w-100") ?></div>
+                    <div class="col-12 col-md-6 col-lg-4 py-1 py-md-3"><?= renderImg("servicing-sydney.png", "lib", "w-100") ?></div>
+                    <div class="col-12 col-md-6 col-lg-4 py-1 py-md-3"><?= renderImg("free-safety-inspections.png", "lib", "w-100") ?></div>
+                    <div class="col-12 col-md-6 col-lg-6 py-1 py-md-3"><?= renderImg("highly-reviewed.png", "lib", "w-100") ?></div>
+                    <div class="col-12 col-md-6 col-lg-6 py-1 py-md-3"><?= renderImg("professional-plumbers.png", "lib", "w-100") ?></div>
+                    <div class="col-12 pt-3 d-md-none"><?= renderImg("24-hrs-emergency-service-sm.jpg", "lib", "w-100") ?></div>
+                    <div class="col-12 pt-3 d-none d-md-block"><?= renderImg("24-hrs-emergency-service.png", "lib", "w-100") ?></div>
+                    <div class="col-8 col-md-4 col-lg-3 col-xl-2 why-choose-btn">
                         <a href="tel: <?= $phone_number ?>" class="btn btn-block btn-primary rounded-pill h24">Call Now</a>
                     </div>
                 </div>
@@ -182,8 +183,8 @@ include __DIR__ . '/header.php';
 <section class="services">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-6 text-center h4 fw-700 line-height-1 text-dark-grey"><span class="text-primary">We Offer</span> Competitive Rates <span class="text-primary">And</span> Fast Service.</div>
-            <div class="col-12 text-center text-dark-grey h32 pb-5">Our plumbers service Sydney-wide including Western Sydney, Eastern Sydney, Sydney CBD, and Greater Sydney.</div>
+            <div class="col-md-6 text-center h4 fw-700 line-height-1 text-dark-grey"><span class="text-primary">We Offer</span> Competitive Rates <span class="text-primary">And</span> Fast Service.</div>
+            <div class="col-12 text-center text-dark-grey h32 pt-3 pt-md-0 pb-4 pb-md-5">Our plumbers service Sydney-wide including Western Sydney, Eastern Sydney, Sydney CBD, and Greater Sydney.</div>
         </div>
         <?php $services = [
             [
@@ -267,11 +268,11 @@ include __DIR__ . '/header.php';
 <section class="projects">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 px-5">
-                <div class="text-center text-white text-uppercase h3 fw-700 pt-5">Our Projects</div>
-                <div class="text-dark-grey text-center h30 pb-4">With over <span class="fw-700">10 Years</span> in the maintenance industry we have provided a leading plumbing service across Sydney and surrounding areas.</div>
+            <div class="col-12 col-lg-6 px-md-5">
+                <div class="text-center text-white text-uppercase h3 fw-700 pt-md-5">Our Projects</div>
+                <div class="text-dark-grey text-center h30 pb-4 d-none d-md-block">With over <span class="fw-700">10 Years</span> in the maintenance industry we have provided a leading plumbing service across Sydney and surrounding areas.</div>
                 <div class="project active" d-name="recent-projects">
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between align-items-center">
                         <div class="col-auto">Our Recent</div>
                         <div class="col-auto">
                             <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -281,7 +282,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
                 <div class="project" d-name="hot-water-systems">
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between align-items-center">
                         <div class="col-auto">Hot Water Systems</div>
                         <div class="col-auto">
                             <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -291,7 +292,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
                 <div class="project" d-name="gas-installations">
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between align-items-center">
                         <div class="col-auto">Gas Installations</div>
                         <div class="col-auto">
                             <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +302,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
                 <div class="project" d-name="leaking-taps-toilets">
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between align-items-center">
                         <div class="col-auto">Leaking Taps &amp; Toilets</div>
                         <div class="col-auto">
                             <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -311,7 +312,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
                 <div class="project" d-name="burst-pipes">
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between align-items-center">
                         <div class="col-auto">Burst Pipes</div>
                         <div class="col-auto">
                             <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -372,11 +373,10 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-xl-11">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-2">
-                        <div class="h27 fw-700">Proud Suppliers <br>
-                            & Partners</div>
+                    <div class="col-md-2 pb-4 pb-md-0">
+                        <div class="h27 fw-400">Proud <span class="fw-700">Suppliers <br class="d-none d-md-block">& Partners</span></div>
                     </div>
-                    <div class="col overflow-hidden">
+                    <div class="col-12 col-md overflow-hidden">
                         <div class="brands-slider">
                             <div><?= renderImg("rheem.png", "logo") ?></div>
                             <div><?= renderImg("aquamax.png", "logo") ?></div>
