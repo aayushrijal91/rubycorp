@@ -16,8 +16,8 @@
     font-size: 4.375rem; // 70px
     margin-bottom: 0;
 
-    @include media-breakpoint-down(lg) {
-        font-size: 3rem;
+    @include media-breakpoint-down(xl) {
+        font-size: 4rem;
     }
 
     @include media-breakpoint-down(sm) {

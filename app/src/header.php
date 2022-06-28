@@ -27,7 +27,7 @@
 		<div class="header-top-bar">
 			<div class="container-fluid">
 				<div class="row justify-content-center">
-					<div class="col-12 col-lg-11">
+					<div class="col-12 col-xxl-11">
 						<div class="row justify-content-center justify-content-lg-between align-items-center">
 							<div class="col-10 col-md-auto pb-3 pb-md-0">
 								<a href="./">
@@ -99,11 +99,11 @@
 		<div class="banner">
 			<div class="container-fluid">
 				<div class="row justify-content-center">
-					<div class="col-12 col-lg-11">
+					<div class="col-12 col-xxl-11">
 						<div class="row align-items-center">
 							<div class="col-lg-6 pt-5 pb-4 py-md-5">
 								<div class="text-white fw-800 h2 line-height-1"><span class="text-primary">We've Got You Covered On</span> All of Your Sydney Plumbing Needs.</div>
-								<div class="text-white h31 pt-4 pt-md-0 pb-3 pb-md-4">Our expert technicians come with a wealth of knowledge to take on any job no matter how<br class="d-none d-xl-block"> large or small the job is.</div>
+								<div class="text-white h31 pt-4 pb-3 pb-md-4">Our expert technicians come with a wealth of knowledge to take on any job no matter how<br class="d-none d-xl-block"> large or small the job is.</div>
 								<?php
 								$cta = [
 									["24 Hour Emergency Service", "Anytime You Need Us, We Will Be There"],

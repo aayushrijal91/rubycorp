@@ -6,13 +6,13 @@ include __DIR__ . '/header.php';
 <section class="cta">
     <div class="container-fluid">
         <div class="row justify-content-end">
-            <div class="col-12 col-xl-11 pr-md-5">
+            <div class="col-12 col-xxl-11 pr-xxl-5">
                 <div class="row no-gutters justify-content-center justify-content-md-between align-items-center">
                     <div class="col-auto text-white py-3 text-center text-md-left">
                         <div class="fw-400 h20">Check Out Our</div>
                         <div class="fw-800 h11 line-height-1">5 Star Reviews</div>
                     </div>
-                    <div class="col-auto d-none d-md-block">
+                    <div class="col-9 col-xxl-auto d-none d-md-block">
                         <?= renderImg("ratings.png", "lib") ?>
                     </div>
                     <div class="col-12 col-md-auto d-md-none pb-4">
@@ -183,8 +183,8 @@ include __DIR__ . '/header.php';
 <section class="services">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6 text-center h4 fw-700 line-height-1 text-dark-grey"><span class="text-primary">We Offer</span> Competitive Rates <span class="text-primary">And</span> Fast Service.</div>
-            <div class="col-12 text-center text-dark-grey h32 pt-3 pt-md-0 pb-4 pb-md-5">Our plumbers service Sydney-wide including Western Sydney, Eastern Sydney, Sydney CBD, and Greater Sydney.</div>
+            <div class="col-md-7 col-xxl-6 text-center h4 fw-700 line-height-1 text-dark-grey"><span class="text-primary">We Offer</span> Competitive Rates <span class="text-primary">And</span> Fast Service.</div>
+            <div class="col-12 text-center text-dark-grey h32 pt-3 pb-4 pb-md-5">Our plumbers service Sydney-wide including Western Sydney, Eastern Sydney, Sydney CBD, and Greater Sydney.</div>
         </div>
         <?php $services = [
             [
@@ -371,10 +371,10 @@ include __DIR__ . '/header.php';
 <section class="brands">
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-xl-11">
+            <div class="col-12 col-xxl-11">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-2 pb-4 pb-md-0">
-                        <div class="h27 fw-400">Proud <span class="fw-700">Suppliers <br class="d-none d-md-block">& Partners</span></div>
+                        <div class="h27 fw-400 line-height-1">Proud <span class="fw-700">Suppliers <br class="d-none d-md-block">& Partners</span></div>
                     </div>
                     <div class="col-12 col-md overflow-hidden">
                         <div class="brands-slider">
@@ -410,10 +410,10 @@ include __DIR__ . '/header.php';
                     <div class="text-white h9 fw-800 line-height-1">Payment Plans with Brighte</div>
                 </div>
             </div>
-            <div class="col-auto text-white line-height-1 h10">
+            <div class="col col-xxl-auto text-white line-height-1 h10 px-4">
                 We Accept All<br> Forms <span class="fw-700">Of Payments</span>
             </div>
-            <div class="col-4">
+            <div class="col-3 col-xxl-4 px-4 px-xxl-0">
                 <?= renderImg("payment-medium.png", "lib") ?>
             </div>
         </div>
@@ -425,15 +425,15 @@ include __DIR__ . '/header.php';
         <div class="h3 text-center d-none d-md-block">What Our <span class="text-primary fw-800">Clients Say</span></div>
         <div class="main-wrapper">
             <div class="row justify-content-between">
-                <div class="col-lg-7 testimonial-main">
-                    <div class="row no-gutters align-items-md-center">
+                <div class="col-lg-6 col-xxl-7 testimonial-main">
+                    <div class="row no-gutters align-items-xxl-center">
                         <div class="col-auto pr-4">
                             <svg width="57" height="50" viewBox="0 0 57 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M21.375 50H2.375C1.06341 50 0 48.9351 0 47.619V23.8095C0 11.8001 4.48908 3.85045 13.342 0.180193C14.5538 -0.319712 15.942 0.255764 16.4453 1.47067C16.9462 2.68672 16.3699 4.07831 15.158 4.58172C8.72535 7.2475 5.32867 12.7697 4.81842 21.4286H21.375C22.6866 21.4286 23.75 22.4946 23.75 23.8095V47.619C23.75 48.9351 22.6866 50 21.375 50Z" fill="#28A3E7" />
                                 <path d="M54.625 50H35.625C34.3134 50 33.25 48.9351 33.25 47.619V23.8095C33.25 11.8001 37.7391 3.85045 46.592 0.180193C47.8004 -0.319712 49.192 0.255764 49.6953 1.47065C50.1962 2.68669 49.6199 4.07829 48.408 4.58169C41.9753 7.2475 38.5787 12.7697 38.0684 21.4286H54.625C55.9366 21.4286 57 22.4946 57 23.8095V47.619C57 48.9351 55.9366 50 54.625 50Z" fill="#28A3E7" />
                             </svg>
                         </div>
-                        <div class="col col-md-auto sub_heading">Clients Testimonials</div>
+                        <div class="col col-xxl-auto sub_heading">Clients Testimonials</div>
                     </div>
                     <div class="testimonial-slider">
                         <div class="testimonial-slider-content">
@@ -500,8 +500,8 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-auto testimonial-img">
-                    <?= renderImg("testimonial.png", "lib") ?>
+                <div class="col-auto col-xl col-xxl-auto testimonial-img">
+                    <?= renderImg("testimonial.png", "lib", "w-100") ?>
                 </div>
             </div>
         </div>
