@@ -6,14 +6,17 @@ include __DIR__ . '/header.php';
 <section class="cta">
     <div class="container-fluid">
         <div class="row justify-content-end">
-            <div class="col-12 col-xl-11 pr-5">
-                <div class="row no-gutters justify-content-between align-items-center">
-                    <div class="col-auto text-white py-3">
+            <div class="col-12 col-xl-11 pr-md-5">
+                <div class="row no-gutters justify-content-center justify-content-md-between align-items-center">
+                    <div class="col-auto text-white py-3 text-center text-md-left">
                         <div class="fw-400 h20">Check Out Our</div>
                         <div class="fw-800 h11 line-height-1">5 Star Reviews</div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-auto d-none d-md-block">
                         <?= renderImg("ratings.png", "lib") ?>
+                    </div>
+                    <div class="col-12 col-md-auto d-md-none pb-4">
+                        <?= renderImg("ratings-sm.png", "lib", "w-100") ?>
                     </div>
                 </div>
             </div>
@@ -31,7 +34,7 @@ include __DIR__ . '/header.php';
                             <div class="fw-700 h2 line-height-1">Book A Plumber</div>
                             <div class="h15 line-height-1">Same Day Service or <span class="text-primary fw-700 text-uppercase">$50 off your job</span></div>
                         </div>
-                        <?= renderImg("logo.png", "logo") ?>
+                        <?= renderImg("logo.png", "logo", "d-none d-md-block") ?>
                     </div>
                     <div class="text-capitalize text-grey h30 fw-300 pt-3">Please fill in the 3-Step form & submit your job to be contacted in return. We are available 24/7 for emergency call-outs.</div>
                     <hr class="bg-light-grey">
@@ -39,22 +42,21 @@ include __DIR__ . '/header.php';
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                         <div class="row justify-content-between align-items-end">
                             <div class="col-12">
-                                <hr class="separator d-md-none">
                                 <div class="tab">
                                     <div class="form-row form-wrapper">
                                         <div class="col-12 col-md-6">
                                             <label for="">First Name</label>
                                             <input type="text" class="form-control" placeholder="e.g. John" oninput="this.className = 'form-control rounded-0 '" name="firstName" required>
                                         </div>
-                                        <div class="col-12 col-md-6 pt-2 pt-md-0">
+                                        <div class="col-12 col-md-6 pt-3 pt-md-0">
                                             <label for="">Last Name</label>
                                             <input type="text" class="form-control" placeholder="e.g. Smith" oninput="this.className = 'form-control rounded-0'" name="lastName" required>
                                         </div>
-                                        <div class="col-12 col-md-6 pt-2 pt-md-4">
+                                        <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">Contact Number</label>
                                             <input type="tel" class="form-control" placeholder="e.g. 0400 000 000" oninput="this.className = 'form-control rounded-0'" name="phone">
                                         </div>
-                                        <div class="col-12 col-md-6 pt-2 pt-md-4">
+                                        <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">Contact Email Address</label>
                                             <input type="email" class="form-control" placeholder="e.g. example@email.com" oninput="this.className = 'form-control rounded-0'" name="email">
                                         </div>
@@ -66,17 +68,17 @@ include __DIR__ . '/header.php';
                                             <label for="">Street Number &amp; Name</label>
                                             <input type="text" class="form-control" placeholder="e.g. 123 George St" oninput="this.className = 'form-control rounded-0 '" name="street" required>
                                         </div>
-                                        <div class="col-12 col-md-6 pt-2 pt-md-0">
+                                        <div class="col-12 col-md-6 pt-3 pt-md-0">
                                             <label for="">Suburb</label>
                                             <input type="text" class="form-control" placeholder="e.g. Suburb" oninput="this.className = 'form-control rounded-0'" name="suburb" required>
                                         </div>
-                                        <div class="col-12 col-md-6 pt-2 pt-md-4">
+                                        <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">Postcode</label>
                                             <input type="tel" class="form-control" placeholder="e.g. 1234" oninput="this.className = 'form-control rounded-0'" name="postcode">
                                         </div>
-                                        <div class="col-12 col-md-6 pt-2 pt-md-4">
+                                        <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">State</label>
-                                            <select class="form-control rounded-0" name="state" required>
+                                            <select class="form-control" name="state" required>
                                                 <option selected>NSW</option>
                                                 <option>ACT</option>
                                                 <option>Queensland</option>
@@ -93,7 +95,7 @@ include __DIR__ . '/header.php';
                                     <div class="form-row form-wrapper">
                                         <div class="col-12 col-md-6">
                                             <label for="">Service Required</label>
-                                            <select class="form-control rounded-0" name="service" required>
+                                            <select class="form-control" name="service" required>
                                                 <option selected disabled>Select a Service</option>
                                                 <option>Leaking Tap Repairs</option>
                                                 <option>Burst & Leaking Pipes</option>
@@ -111,11 +113,11 @@ include __DIR__ . '/header.php';
                                                 <option>CCTV Drain Inspections</option>
                                             </select>
                                         </div>
-                                        <div class="col-12 col-md-6 pt-2 pt-md-0">
+                                        <div class="col-12 col-md-6 pt-3 pt-md-0">
                                             <label for="">Message (Optional)</label>
                                             <input type="text" class="form-control" placeholder="Message" oninput="this.className = 'form-control rounded-0'" name="message" required>
                                         </div>
-                                        <div class="col-12 pt-2 pt-md-4">
+                                        <div class="col-12 pt-3 pt-md-4">
                                             <label for="">Upload Photos You Think May help prior to visiting</label>
                                             <input type="tel" class="form-control" placeholder="e.g. 1234" oninput="this.className = 'form-control rounded-0'" name="postcode">
                                         </div>
@@ -124,7 +126,7 @@ include __DIR__ . '/header.php';
                             </div>
                             <div class="col-12 mt-5">
                                 <div class="row no-gutters justify-content-between">
-                                    <div class="col-12 col-lg-5 d-flex align-items-center">
+                                    <div class="col-12 col-lg-5 d-none d-md-flex align-items-center">
                                         <svg width="31" height="38" viewBox="0 0 31 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0266 0.490936C13.2027 0.611616 11.9014 0.93122 11.1997 1.18531C6.76985 2.78881 3.49902 6.61211 2.48805 11.3682C2.24766 12.4992 2.16076 14.6089 2.30681 15.7689L2.41441 16.6239L2.16438 16.8143C1.35304 17.4323 0.704107 18.5229 0.54656 19.5335C0.427471 20.2968 0.428002 33.4201 0.547179 34.2441C0.801005 36.0001 2.29302 37.4965 4.0362 37.7432C4.88185 37.863 26.2788 37.8616 27.1113 37.7418C27.4517 37.6929 27.9818 37.5351 28.2894 37.3915C28.9695 37.0737 29.8614 36.2151 30.1949 35.557C30.6907 34.5786 30.6893 34.6028 30.6893 26.8715C30.6893 19.1076 30.6896 19.1125 30.1812 18.1777C29.9355 17.7258 29.1878 16.8856 28.8927 16.7296C28.7422 16.65 28.7369 16.5925 28.8264 16.0158C28.9636 15.1313 28.9463 13.1005 28.7931 12.107C27.9051 6.34821 23.75 1.88366 18.1377 0.657767C17.4935 0.517106 14.6389 0.4012 14.0266 0.490936ZM17.5093 5.56321C21.8151 6.61715 24.649 11.0737 23.9184 15.6423L23.8617 15.997H15.5624C8.98285 15.997 7.26283 15.9741 7.26159 15.8865C7.26071 15.8258 7.22242 15.4181 7.17636 14.9807C6.89699 12.3243 7.91662 9.57324 9.87862 7.68966C11.1885 6.43211 12.4762 5.76603 14.249 5.42892C15.1071 5.2658 16.5345 5.32459 17.5093 5.56321ZM16.499 21.3488C17.6276 21.6428 18.5341 22.4039 19.0482 23.489C19.3132 24.0487 19.3312 24.1483 19.3312 25.0591C19.3312 25.9675 19.3128 26.0705 19.0514 26.6222C18.7494 27.2597 18.2065 27.9092 17.7291 28.2043L17.4304 28.3889L17.4284 30.0394C17.4262 31.9132 17.3619 32.1726 16.7714 32.6912C16.3596 33.0526 16.1158 33.1487 15.6094 33.1487C14.792 33.1487 14.0707 32.6274 13.8474 31.8752C13.755 31.5642 13.717 30.9983 13.7168 29.9277L13.7164 28.4187L13.2273 28.0409C11.8771 26.9982 11.3871 25.0129 12.1039 23.4899C12.9062 21.7853 14.7417 20.8911 16.499 21.3488Z" fill="#939393" />
                                         </svg>
@@ -135,7 +137,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                     <div class="col d-flex">
                                         <button type="button" class="btn bg-light btn-block text-primary rounded-5 fw-700 text-uppercase mt-0 mr-2" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-                                        <button type="button" class="btn bg-secondary btn-block text-white rounded-5 fw-700 text-uppercase mt-0 ml-2" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                                        <button type="button" class="btn bg-secondary btn-block text-white rounded-5 fw-700 text-uppercase mt-0 ml-md-2" id="nextBtn" onclick="nextPrev(1)">Next</button>
                                     </div>
                                 </div>
                             </div>

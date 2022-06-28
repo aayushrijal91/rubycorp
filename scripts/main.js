@@ -134,7 +134,7 @@ function validateForm() {
 }
 
 function fixStepIndicator(n) {
-    document.getElementById("progress-question-number").innerHTML = `Question ${n + 1} of 6`;
+    document.getElementById("progress-question-number").innerHTML = `Question ${n + 1} of 3`;
     var i, x = document.getElementsByClassName("step");
     for (i = 0; i < x.length; i++) {
         x[i].className = x[i].className.replace(" active", "");

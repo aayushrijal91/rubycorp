@@ -21,7 +21,7 @@
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 2.5rem;
+        font-size: 2.8125rem;
     }
 }
 
@@ -117,7 +117,7 @@
     font-size: 2.65875rem; // 42.54px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1.25rem;
+        font-size: 1.793125rem;
     }
 }
 
@@ -149,7 +149,7 @@
     font-size: 2.25rem; // 36px
 
     @include media-breakpoint-down(sm) {
-        font-size: 0.9375rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -189,7 +189,7 @@
     font-size: 1.679375rem; // 26.87px
 
     @include media-breakpoint-down(sm) {
-        font-size: 0.7725rem;
+        font-size: 1.125rem;
     }
 }
 
@@ -269,7 +269,7 @@
     font-size: 1.125rem; // 18px
 
     @include media-breakpoint-down(sm) {
-        font-size: 0.875rem;
+        font-size: 0.75rem;
     }
 }
 
