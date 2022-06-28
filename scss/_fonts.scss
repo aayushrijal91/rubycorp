@@ -19,6 +19,10 @@
     @include media-breakpoint-down(xl) {
         font-size: 4rem;
     }
+    
+    @include media-breakpoint-down(md) {
+        font-size: 3rem;
+    }
 
     @include media-breakpoint-down(sm) {
         font-size: 2.8125rem;
@@ -147,6 +151,10 @@
 
 .h15 {
     font-size: 2.25rem; // 36px
+    
+    @include media-breakpoint-down(md) {
+        font-size: 1.75rem;
+    }
 
     @include media-breakpoint-down(sm) {
         font-size: 1.2rem;
@@ -172,7 +180,7 @@
 .h18 {
     font-size: 1.875rem; // 30px
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 1.4375rem;
     }
 }
@@ -268,7 +276,7 @@
 .h30 {
     font-size: 1.125rem; // 18px
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 0.75rem;
     }
 }
@@ -324,8 +332,8 @@
 .h37 {
     font-size: 0.875rem; // 14px
 
-    @include media-breakpoint-down(sm) {
-        font-size: 0.875rem;
+    @include media-breakpoint-down(md) {
+        font-size: 0.75rem;
     }
 }
 

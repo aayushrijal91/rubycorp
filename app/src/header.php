@@ -29,16 +29,16 @@
 				<div class="row justify-content-center">
 					<div class="col-12 col-xxl-11">
 						<div class="row justify-content-center justify-content-lg-between align-items-center">
-							<div class="col-10 col-md-auto pb-3 pb-md-0">
+							<div class="col-10 col-md-auto pb-3 pb-md-4 pb-lg-0">
 								<a href="./">
 									<?= renderImg("logo.png", "logo") ?>
 								</a>
 							</div>
-							<div class="col-12 col-md-auto btn-wrapper">
-								<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
+							<div class="col-12 col-lg-auto btn-wrapper">
+								<div class="row justify-content-center justify-content-md-between justify-content-lg-end no-gutters align-items-center">
 									<div class="col-12 col-md-auto d-none d-md-block">
 										<div class="row no-gutters justify-content-center py-2 px-3 h25">
-											<div class="col-auto pr-5">
+											<div class="col-auto pr-4 pr-lg-5">
 												<div class="pulse pulsating-circle"></div>
 											</div>
 											<div class="col-auto">
@@ -51,12 +51,12 @@
 										</div>
 									</div>
 									<div class="col-6 col-md-auto pr-1 px-md-2">
-										<a href="#form-quote" class="btn btn-block h24 fw-500 line-height-1 px-md-6">
+										<a href="#form-quote" class="btn btn-block h24 fw-500 line-height-1 px-lg-6">
 											Get A Quote
 										</a>
 									</div>
 									<div class="col-6 col-md-auto pl-1 px-md-2">
-										<a href="tel:<?= $phone_number ?>" class="btn px-md-4">
+										<a href="tel:<?= $phone_number ?>" class="btn px-lg-4">
 											<div class="pr-3 d-md-none">
 												<svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<g clip-path="url(#clip0_22_711)">
