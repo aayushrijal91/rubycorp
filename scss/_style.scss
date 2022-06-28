@@ -110,7 +110,7 @@ section.form {
             input[type="file"] {
                 display: none;
             }
-            
+
             input,
             select {
                 height: 46px;
@@ -424,7 +424,7 @@ section.testimonials {
                         padding-left: 22px;
                         margin: 60px 0 25px;
 
-                        @include media-breakpoint-down(lg){
+                        @include media-breakpoint-down(lg) {
                             margin: 25px 0;
                         }
 
@@ -499,23 +499,38 @@ section.testimonials {
 }
 
 section.gmb {
-    background: imgUrl("map.jpg") center;
-    background-size: cover;
-    padding: 347px 0 96px;
+    position: relative;
+    margin-bottom: -8px;
 
-    @include media-breakpoint-up(md) {
-        padding: 178px 0 135px;
+    .map-frame {
+        height: 965px;
     }
 
-    .gmb-wrapper {
-        background: $primary;
-        border-radius: 20px;
-        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    .social-links {
+        position: absolute;
+        top: 178px;
+        left: 148px;
 
-        .gmb-img {
+        @include media-breakpoint-down(xl){
+            left: 42px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            left: 0;
+            top: 347px;
+            padding: 0 16px;
+        }
+
+        .gmb-wrapper {
+            background: $primary;
             border-radius: 20px;
-            overflow: hidden;
-            filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+
+            .gmb-img {
+                border-radius: 20px;
+                overflow: hidden;
+                filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+            }
         }
     }
 }
