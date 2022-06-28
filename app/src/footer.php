@@ -1,6 +1,6 @@
 <footer>
 	<div class="container">
-		<div class="row justify-content-center justify-content-lg-between align-items-center py-4">
+		<div class="row justify-content-center justify-content-md-between align-items-center py-4">
 			<div class="col-auto d-md-none pb-4">
 				<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
 					<div class="col-auto footer-nav-li pl-lg-5">

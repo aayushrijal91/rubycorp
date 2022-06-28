@@ -37,10 +37,6 @@
         font-size: 3rem;
     }
 
-    @include media-breakpoint-down(md) {
-        font-size: 2rem;
-    }
-
     @include media-breakpoint-down(sm) {
         font-size: 1.875rem;
     }

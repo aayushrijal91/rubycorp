@@ -269,7 +269,7 @@ include __DIR__ . '/header.php';
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 px-md-5">
-                <div class="text-center text-white text-uppercase h3 fw-700 pb-4 pb-md-0 pt-md-5">Our Projects</div>
+                <div class="text-center text-white text-uppercase h3 fw-700 pb-4 pb-md-0 pt-lg-5">Our Projects</div>
                 <div class="text-dark-grey text-center h30 pb-4 d-none d-md-block">With over <span class="fw-700">10 Years</span> in the maintenance industry we have provided a leading plumbing service across Sydney and surrounding areas.</div>
                 <div class="project active" d-name="recent-projects">
                     <div class="row justify-content-between align-items-center">
@@ -373,8 +373,8 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-md-2 pb-4 pb-md-0">
-                        <div class="h27 fw-400 line-height-1">Proud <span class="fw-700">Suppliers <br class="d-none d-md-block">& Partners</span></div>
+                    <div class="col-lg-2 pb-4 pb-lg-0">
+                        <div class="h27 fw-400 line-height-1">Proud <span class="fw-700">Suppliers <br class="d-none d-lg-block">& Partners</span></div>
                     </div>
                     <div class="col-12 col-md overflow-hidden">
                         <div class="brands-slider">
@@ -403,17 +403,17 @@ include __DIR__ . '/header.php';
 <section class="payments">
     <div class="container-fluid px-0">
         <div class="row no-gutters justify-content-between align-items-center">
-            <div class="col-auto">
+            <div class="col-xl-auto">
                 <div class="brighte text-center">
                     <?= renderImg("brighte.png", "logo", "pb-3") ?>
                     <div class="text-white h9 line-height-1">Get Started With</div>
                     <div class="text-white h9 fw-800 line-height-1">Payment Plans with Brighte</div>
                 </div>
             </div>
-            <div class="col col-xxl-auto text-white line-height-1 h10 px-4">
+            <div class="col col-xxl-auto text-white line-height-1 h10 p-4 py-lg-0">
                 We Accept All<br> Forms <span class="fw-700">Of Payments</span>
             </div>
-            <div class="col-3 col-xxl-4 px-4 px-xxl-0">
+            <div class="col-6 col-xl-3 col-xxl-4 p-4 py-lg-0 px-xxl-0">
                 <?= renderImg("payment-medium.png", "lib") ?>
             </div>
         </div>
@@ -424,7 +424,7 @@ include __DIR__ . '/header.php';
     <div class="container">
         <div class="h3 text-center d-none d-md-block">What Our <span class="text-primary fw-800">Clients Say</span></div>
         <div class="main-wrapper">
-            <div class="row justify-content-between">
+            <div class="row justify-content-end justify-content-lg-between">
                 <div class="col-lg-6 col-xxl-7 testimonial-main">
                     <div class="row no-gutters align-items-xxl-center">
                         <div class="col-auto pr-4">
@@ -443,7 +443,7 @@ include __DIR__ . '/header.php';
 
                                 <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
                             </div>
-                            <div class="letter-spacing-n02 fw-700 text-black h30 line-height-1 pt-5">James</div>
+                            <div class="username">James</div>
                             <div class="">
                                 <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
@@ -461,7 +461,7 @@ include __DIR__ . '/header.php';
 
                                 <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
                             </div>
-                            <div class="letter-spacing-n02 fw-700 text-black h30 line-height-1 pt-5">Charles</div>
+                            <div class="username">Charles</div>
                             <div class="">
                                 <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
