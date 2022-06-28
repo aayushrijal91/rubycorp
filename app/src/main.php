@@ -269,7 +269,7 @@ include __DIR__ . '/header.php';
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 px-md-5">
-                <div class="text-center text-white text-uppercase h3 fw-700 pt-md-5">Our Projects</div>
+                <div class="text-center text-white text-uppercase h3 fw-700 pb-4 pb-md-0 pt-md-5">Our Projects</div>
                 <div class="text-dark-grey text-center h30 pb-4 d-none d-md-block">With over <span class="fw-700">10 Years</span> in the maintenance industry we have provided a leading plumbing service across Sydney and surrounding areas.</div>
                 <div class="project active" d-name="recent-projects">
                     <div class="row justify-content-between align-items-center">
@@ -422,23 +422,23 @@ include __DIR__ . '/header.php';
 
 <section class="testimonials">
     <div class="container">
-        <div class="h3 text-center">What Our <span class="text-primary fw-800">Clients Say</span></div>
+        <div class="h3 text-center d-none d-md-block">What Our <span class="text-primary fw-800">Clients Say</span></div>
         <div class="main-wrapper">
             <div class="row justify-content-between">
-                <div class="col-lg-6 testimonial-main">
-                    <div class="row no-gutters align-items-center">
+                <div class="col-lg-7 testimonial-main">
+                    <div class="row no-gutters align-items-md-center">
                         <div class="col-auto pr-4">
                             <svg width="57" height="50" viewBox="0 0 57 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M21.375 50H2.375C1.06341 50 0 48.9351 0 47.619V23.8095C0 11.8001 4.48908 3.85045 13.342 0.180193C14.5538 -0.319712 15.942 0.255764 16.4453 1.47067C16.9462 2.68672 16.3699 4.07831 15.158 4.58172C8.72535 7.2475 5.32867 12.7697 4.81842 21.4286H21.375C22.6866 21.4286 23.75 22.4946 23.75 23.8095V47.619C23.75 48.9351 22.6866 50 21.375 50Z" fill="#28A3E7" />
                                 <path d="M54.625 50H35.625C34.3134 50 33.25 48.9351 33.25 47.619V23.8095C33.25 11.8001 37.7391 3.85045 46.592 0.180193C47.8004 -0.319712 49.192 0.255764 49.6953 1.47065C50.1962 2.68669 49.6199 4.07829 48.408 4.58169C41.9753 7.2475 38.5787 12.7697 38.0684 21.4286H54.625C55.9366 21.4286 57 22.4946 57 23.8095V47.619C57 48.9351 55.9366 50 54.625 50Z" fill="#28A3E7" />
                             </svg>
                         </div>
-                        <div class="col-auto letter-spacing-n02 fw-600 h3 line-height-1">Clients Testimonials</div>
+                        <div class="col col-md-auto sub_heading">Clients Testimonials</div>
                     </div>
                     <div class="testimonial-slider">
                         <div class="testimonial-slider-content">
                             <div class="quote">“well priced and definitely someone you can trust”</div>
-                            <div class="text-grey h35">
+                            <div class="h35">
                                 <p>Justin is a great bloke to deal with, very professional, honest, on time and his work is top notch unlike most of the dodgy plumbers you find in Sydney. He is also well priced and definitely someone you can trust to do an honest and great job. He went a long way in clearing the blockage in my sewer line from both sides of the entry points, even went the extra mile to remove the toilet.</p>
 
                                 <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
@@ -456,7 +456,7 @@ include __DIR__ . '/header.php';
                         </div>
                         <div class="testimonial-slider-content">
                             <div class="quote">“well priced and definitely someone you can trust”</div>
-                            <div class="text-grey h35">
+                            <div class="h35">
                                 <p>Justin is a great bloke to deal with, very professional, honest, on time and his work is top notch unlike most of the dodgy plumbers you find in Sydney. He is also well priced and definitely someone you can trust to do an honest and great job. He went a long way in clearing the blockage in my sewer line from both sides of the entry points, even went the extra mile to remove the toilet.</p>
 
                                 <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
@@ -500,7 +500,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto testimonial-img">
                     <?= renderImg("testimonial.png", "lib") ?>
                 </div>
             </div>
