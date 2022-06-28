@@ -1,9 +1,10 @@
 <footer>
 	<div class="container">
-		<div class="row justify-content-center justify-content-md-between align-items-center py-4">
+		<div class="row justify-content-center justify-content-lg-between align-items-center py-4">
 			<div class="col-auto d-md-none pb-4">
 				<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
-					<div class="col-auto footer-nav-li pl-lg-5">
+				<div class="col-auto text-white"><a href="https://www.rubycorpplumbing.com.au/privacy-policy" target="_blank" class="footer-text text-primary btn p-0">Privacy Policy</a></div>
+					<div class="col-auto footer-nav-li pl-3">
 						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 							<?= renderImg("aiims.png", "logo") ?>
 						</a>
@@ -14,15 +15,15 @@
 				<div class="row no-gutters text-white text-center justify-content-center footer-text">
 					<div class="col-auto ">Copyright <?= date('Y') ?></div>
 					<div class="col-auto px-2 px-md-4 text-primary">|</div>
-					<div class="col-auto "><?= $site ?></div>
+					<div class="col-auto"><?= $site ?></div>
 					<div class="col-auto px-2 px-md-4 text-primary">|</div>
-					<div class="col-auto ">All Rights Reserved
-					</div>
+					<div class="col-auto">All Rights Reserved</div>
 				</div>
 			</div>
-			<div class="col-auto d-none d-md-block">
+			<div class="col-auto d-none d-md-block pt-4 pt-lg-0">
 				<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
-					<div class="col-auto footer-nav-li pl-lg-5">
+					<div class="col-auto text-white"><a href="https://www.rubycorpplumbing.com.au/privacy-policy" target="_blank" class="footer-text text-primary btn p-0">Privacy Policy</a></div>
+					<div class="col-auto pl-md-5">
 						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 							<?= renderImg("aiims.png", "logo") ?>
 						</a>
