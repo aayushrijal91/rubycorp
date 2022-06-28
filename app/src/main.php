@@ -38,7 +38,7 @@ include __DIR__ . '/header.php';
                     </div>
                     <div class="text-capitalize text-grey h30 fw-300 pt-3">Please fill in the 3-Step form & submit your job to be contacted in return. We are available 24/7 for emergency call-outs.</div>
                     <hr class="bg-light-grey">
-                    <form id="regForm" action="form.php" method="POST">
+                    <form id="regForm" action="./src/form" method="POST">
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                         <div class="row justify-content-between align-items-end">
                             <div class="col-12">
