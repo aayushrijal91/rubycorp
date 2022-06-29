@@ -54,11 +54,11 @@ include __DIR__ . '/header.php';
                                         </div>
                                         <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">Contact Number</label>
-                                            <input type="tel" class="form-control" placeholder="e.g. 0400 000 000" oninput="this.className = 'form-control rounded-0'" name="phone">
+                                            <input type="tel" class="form-control" placeholder="e.g. 0400 000 000" oninput="this.className = 'form-control rounded-0'" name="phone" required>
                                         </div>
                                         <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">Contact Email Address</label>
-                                            <input type="email" class="form-control" placeholder="e.g. example@email.com" oninput="this.className = 'form-control rounded-0'" name="email">
+                                            <input type="email" class="form-control" placeholder="e.g. example@email.com" oninput="this.className = 'form-control rounded-0'" name="email" required>
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ include __DIR__ . '/header.php';
                                         </div>
                                         <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">Postcode</label>
-                                            <input type="tel" class="form-control" placeholder="e.g. 1234" oninput="this.className = 'form-control rounded-0'" name="postcode">
+                                            <input type="tel" class="form-control" placeholder="e.g. 1234" oninput="this.className = 'form-control rounded-0'" name="postcode" required>
                                         </div>
                                         <div class="col-12 col-md-6 pt-3 pt-md-4">
                                             <label for="">State</label>
@@ -115,7 +115,7 @@ include __DIR__ . '/header.php';
                                         </div>
                                         <div class="col-12 col-md-6 pt-3 pt-md-0">
                                             <label for="">Message (Optional)</label>
-                                            <input type="text" class="form-control" placeholder="Message" oninput="this.className = 'form-control rounded-0'" name="message" required>
+                                            <input type="text" class="form-control not-required" placeholder="Message" oninput="this.className = 'form-control rounded-0'" name="message">
                                         </div>
                                         <div class="col-12 pt-3 pt-md-4">
                                             <div class="row no-gutters justify-content-between align-items-center">
@@ -127,7 +127,7 @@ include __DIR__ . '/header.php';
                                                             </svg> Attach File
                                                         </div>
                                                     </label>
-                                                    <input id="file-upload" class="form-control rounded-0" type="file" name="uploadedFile">
+                                                    <input id="file-upload" class="form-control rounded-0 not-required" type="file" name="uploadedFile">
                                                 </div>
                                                 <div class="col-12 col-md pt-3 pt-md-0">
                                                     <div class="h30 font-poppins">Improved Quote Accuracy (optional)</div>

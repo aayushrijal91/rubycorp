@@ -44,17 +44,17 @@ $(() => {
         autoplay: true,
         variableWidth: true,
         responsive: [{
-                breakpoint: 1700,
-                settings: {
-                    slidesToShow: 6,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                }
+            breakpoint: 1700,
+            settings: {
+                slidesToShow: 6,
             }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
         ]
     });
 
@@ -121,7 +121,10 @@ function validateForm() {
     y = x[currentTab].getElementsByTagName("input");
 
     for (i = 0; i < y.length; i++) {
-        if (y[i].value == "") {
+        if ($(y[i]).hasClass("not-required")) {
+            valid = true;
+        }
+        else if (y[i].value == "") {
             y[i].className += " invalid";
             valid = false;
         }
@@ -142,7 +145,7 @@ function fixStepIndicator(n) {
     x[n].className += " active";
 }
 
-$("#file-upload").on('change', function(){
+$("#file-upload").on('change', function () {
     var file = $(this).val();
     if (file != "") {
         var theSplit = file.split('\\');
