@@ -287,9 +287,9 @@ include __DIR__ . '/header.php';
             <div class="col-12 col-lg-6 px-md-5">
                 <div class="text-center text-white text-uppercase h3 fw-700 pb-4 pb-md-0 pt-xxl-5">Our Projects</div>
                 <div class="text-dark-grey text-center h30 pb-4 d-none d-md-block">With over <span class="fw-700">10 Years</span> in the maintenance industry we have provided a leading plumbing service across Sydney and surrounding areas.</div>
-                <div class="project active" d-name="recent-projects">
+                <div class="project active" d-name="bathroom-renovations">
                     <div class="row justify-content-between align-items-center">
-                        <div class="col-auto">Our Recent</div>
+                        <div class="col-auto">Bathroom Renovations</div>
                         <div class="col-auto">
                             <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M2.43066 26.1006L15.2081 14.1611L2.43066 2.22136" stroke="currentColor" stroke-width="4.05564" stroke-linecap="round" stroke-linejoin="round" />
@@ -339,20 +339,20 @@ include __DIR__ . '/header.php';
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="project-images active" id="recent-projects">
+                <div class="project-images active" id="bathroom-renovations">
                     <div class="row no-gutters">
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-1.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-2.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-3.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-4.png", "lib", "w-100") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-bathroom-1.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-bathroom-2.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-bathroom-3.png", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-bathroom-4.png", "lib", "w-100 rounded-4") ?></div>
                     </div>
                 </div>
                 <div class="project-images" id="hot-water-systems">
                     <div class="row no-gutters">
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-2.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-1.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-4.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-3.png", "lib", "w-100") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-hotwater-1.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-hotwater-2.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-hotwater-3.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-hotwater-4.jpg", "lib", "w-100 rounded-4") ?></div>
                     </div>
                 </div>
                 <div class="project-images" id="gas-installations">
@@ -373,10 +373,10 @@ include __DIR__ . '/header.php';
                 </div>
                 <div class="project-images" id="burst-pipes">
                     <div class="row no-gutters">
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-2.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-1.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-4.png", "lib", "w-100") ?></div>
-                        <div class="col-md-6 p-3"><?= renderImg("project-recent-3.png", "lib", "w-100") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-burstpipes-1.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-burstpipes-2.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-burstpipes-3.jpg", "lib", "w-100 rounded-4") ?></div>
+                        <div class="col-md-6 p-3"><?= renderImg("project-burstpipes-4.jpg", "lib", "w-100 rounded-4") ?></div>
                     </div>
                 </div>
             </div>
