@@ -16,7 +16,7 @@ include __DIR__ . '/header.php';
                         <a href="https://www.google.com/maps/place/Rubycorp+Plumbing+Services+Pty+Ltd/@-33.9296035,151.0885434,15z/data=!4m2!3m1!1s0x0:0x4bfc6c5fa2b59e95?sa=X&ved=2ahUKEwjLi9y4q8_4AhVBUGwGHTW5CjUQ_BJ6BAg3EAU" target="_blank"><?= renderImg("ratings.png", "lib") ?></a>
                     </div>
                     <div class="col-12 col-md-auto d-md-none pb-4">
-                    <a href="https://www.google.com/maps/place/Rubycorp+Plumbing+Services+Pty+Ltd/@-33.9296035,151.0885434,15z/data=!4m2!3m1!1s0x0:0x4bfc6c5fa2b59e95?sa=X&ved=2ahUKEwjLi9y4q8_4AhVBUGwGHTW5CjUQ_BJ6BAg3EAU" target="_blank"><?= renderImg("ratings-sm.png", "lib", "w-100") ?></a>
+                        <a href="https://www.google.com/maps/place/Rubycorp+Plumbing+Services+Pty+Ltd/@-33.9296035,151.0885434,15z/data=!4m2!3m1!1s0x0:0x4bfc6c5fa2b59e95?sa=X&ved=2ahUKEwjLi9y4q8_4AhVBUGwGHTW5CjUQ_BJ6BAg3EAU" target="_blank"><?= renderImg("ratings-sm.png", "lib", "w-100") ?></a>
                     </div>
                 </div>
             </div>
@@ -457,9 +457,9 @@ include __DIR__ . '/header.php';
                             <div class="h35">
                                 <p>Justin is a great bloke to deal with, very professional, honest, on time and his work is top notch unlike most of the dodgy plumbers you find in Sydney. He is also well priced and definitely someone you can trust to do an honest and great job. He went a long way in clearing the blockage in my sewer line from both sides of the entry points, even went the extra mile to remove the toilet.</p>
 
-                                <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
+                                <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend. 👃</p>
                             </div>
-                            <div class="username">James</div>
+                            <div class="username">Ron FJ</div>
                             <div class="">
                                 <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
@@ -471,13 +471,64 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                         <div class="testimonial-slider-content">
-                            <div class="quote">“well priced and definitely someone you can trust”</div>
+                            <div class="quote">“professional, knowledgeable and efficient”</div>
                             <div class="h35">
-                                <p>Justin is a great bloke to deal with, very professional, honest, on time and his work is top notch unlike most of the dodgy plumbers you find in Sydney. He is also well priced and definitely someone you can trust to do an honest and great job. He went a long way in clearing the blockage in my sewer line from both sides of the entry points, even went the extra mile to remove the toilet.</p>
+                                <p>A positive experience dealing with Rubycorp Plumbing. They responded quickly to our requirements and were professional, knowledgeable and efficient.</p>
 
-                                <p>And confirmed the pipes are free from both sides by having the camera in and flushing toilet. I am well versed in the construction trade and I can fully vouch for him, its rare for me to be fully satisfied with tradies, he is one of the very few good ones. Thanks a lot mate, legend.</p>
+                                <p>Will definitely use again and recommend.</p>
                             </div>
-                            <div class="username">Charles</div>
+                            <div class="username">Maryann Vernon</div>
+                            <div class="">
+                                <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
+                                    <path d="M30.6692 0L33.3706 5.12016L39.075 6.10716L35.0402 10.2586L35.8642 15.9888L30.6692 13.4343L25.4741 15.9888L26.2982 10.2586L22.2634 6.10716L27.9677 5.12016L30.6692 0Z" fill="#FAE056" />
+                                    <path d="M52.5 0L55.2014 5.12016L60.9058 6.10716L56.871 10.2586L57.695 15.9888L52.5 13.4343L47.3049 15.9888L48.129 10.2586L44.0942 6.10716L49.7986 5.12016L52.5 0Z" fill="#FAE056" />
+                                    <path d="M74.331 0L77.0325 5.12016L82.7368 6.10716L78.702 10.2586L79.5261 15.9888L74.331 13.4343L69.136 15.9888L69.96 10.2586L65.9253 6.10716L71.6296 5.12016L74.331 0Z" fill="#FAE056" />
+                                    <path d="M96.1616 0L98.863 5.12016L104.567 6.10716L100.533 10.2586L101.357 15.9888L96.1616 13.4343L90.9665 15.9888L91.7906 10.2586L87.7558 6.10716L93.4602 5.12016L96.1616 0Z" fill="#FAE056" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="testimonial-slider-content">
+                            <div class="quote">“very reliable and professional”</div>
+                            <div class="h35">
+                                <p>Great job for a great price. Rubycorp Plumbing ensured I was completely satisfied with the job.</p>
+
+                                <p>Couldn't be more happier!! Very reliable and professional, didn't disappoint.</p>
+                            </div>
+                            <div class="username">Laudi Rizk</div>
+                            <div class="">
+                                <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
+                                    <path d="M30.6692 0L33.3706 5.12016L39.075 6.10716L35.0402 10.2586L35.8642 15.9888L30.6692 13.4343L25.4741 15.9888L26.2982 10.2586L22.2634 6.10716L27.9677 5.12016L30.6692 0Z" fill="#FAE056" />
+                                    <path d="M52.5 0L55.2014 5.12016L60.9058 6.10716L56.871 10.2586L57.695 15.9888L52.5 13.4343L47.3049 15.9888L48.129 10.2586L44.0942 6.10716L49.7986 5.12016L52.5 0Z" fill="#FAE056" />
+                                    <path d="M74.331 0L77.0325 5.12016L82.7368 6.10716L78.702 10.2586L79.5261 15.9888L74.331 13.4343L69.136 15.9888L69.96 10.2586L65.9253 6.10716L71.6296 5.12016L74.331 0Z" fill="#FAE056" />
+                                    <path d="M96.1616 0L98.863 5.12016L104.567 6.10716L100.533 10.2586L101.357 15.9888L96.1616 13.4343L90.9665 15.9888L91.7906 10.2586L87.7558 6.10716L93.4602 5.12016L96.1616 0Z" fill="#FAE056" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="testimonial-slider-content">
+                            <div class="quote">“responsiveness, communication and value for money is by far the best”</div>
+                            <div class="h35">
+                                <p>We’ve been using Rubycorp plumbing for over 1 year. The responsiveness, communication and value for money is by far the best plumbing service we have experienced.</p>
+                            </div>
+                            <div class="username">Richardson & Wrench Hinchinbrook/Hoxton Park</div>
+                            <div class="">
+                                <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
+                                    <path d="M30.6692 0L33.3706 5.12016L39.075 6.10716L35.0402 10.2586L35.8642 15.9888L30.6692 13.4343L25.4741 15.9888L26.2982 10.2586L22.2634 6.10716L27.9677 5.12016L30.6692 0Z" fill="#FAE056" />
+                                    <path d="M52.5 0L55.2014 5.12016L60.9058 6.10716L56.871 10.2586L57.695 15.9888L52.5 13.4343L47.3049 15.9888L48.129 10.2586L44.0942 6.10716L49.7986 5.12016L52.5 0Z" fill="#FAE056" />
+                                    <path d="M74.331 0L77.0325 5.12016L82.7368 6.10716L78.702 10.2586L79.5261 15.9888L74.331 13.4343L69.136 15.9888L69.96 10.2586L65.9253 6.10716L71.6296 5.12016L74.331 0Z" fill="#FAE056" />
+                                    <path d="M96.1616 0L98.863 5.12016L104.567 6.10716L100.533 10.2586L101.357 15.9888L96.1616 13.4343L90.9665 15.9888L91.7906 10.2586L87.7558 6.10716L93.4602 5.12016L96.1616 0Z" fill="#FAE056" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="testimonial-slider-content">
+                            <div class="quote">“value for money”</div>
+                            <div class="h35">
+                                <p>Strongly recommend Justin from Rubycorp for ANY of your plumbing needs, we had a burst main and called Justin he was out there that same day and fixed the pipe, he was fast, reliable, knowledgeable and most importantly charged half that of what any other company quoted me over the phone.</p>
+                                <p>Value for money.</p>
+                            </div>
+                            <div class="username">Andrew Kassis</div>
                             <div class="">
                                 <svg width="105" height="18" viewBox="0 0 105 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.83837 0.000488281L11.5398 5.12065L17.2442 6.10765L13.2094 10.2591L14.0334 15.9892L8.83837 13.4348L3.6433 15.9892L4.46736 10.2591L0.43258 6.10765L6.13693 5.12065L8.83837 0.000488281Z" fill="#FAE056" />
