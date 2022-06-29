@@ -16,20 +16,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $to = $admin_email;
         $subject = "Message from " . $site;
 
-        $name = $_POST['firstName'] . " " . $_POST['lastName'];
-        $phone = $_POST['phone'];
-        $email = $_POST['email'];
-        $address = $_POST['street'] . ", " . $_POST['suburb'] . ", " . $_POST['state'] . ", " . $_POST['postcode'];
-        $service = $_POST['service'];
-        $comment = $_POST['message'];
+        $firstName = strip_tags($_POST['firstName']);
+        $lastName = strip_tags($_POST['lastName']);
+        $phone = strip_tags($_POST['phone']);
+        $email = strip_tags($_POST['email']);
+        $street = strip_tags($_POST['street']);
+        $suburb = strip_tags($_POST['suburb']);
+        $state = strip_tags($_POST['state']);
+        $postcode = strip_tags($_POST['postcode']);
+        $service = strip_tags($_POST['service']);
+        $comment = strip_tags($_POST['message']);
 
         $message = '<!DOCTYPE html><html><body>' .
-            'Name: <strong>' . strip_tags($name) .  '</strong><br>' .
-            'Phone: <strong>' . strip_tags($phone) . '</strong><br>' .
-            'Email Address: <strong>' . strip_tags($email) . '</strong><br>' .
-            'Address: <strong>' . strip_tags($address) . '</strong><br>' .
-            'Service: <strong>' . strip_tags($service) . '</strong><br>';
-            'Message: <strong>' . strip_tags($comment) . '</strong>';
+            'Name: <strong>' . $firstName . " " . $lastName .  '</strong><br>' .
+            'Phone: <strong>' . $phone . '</strong><br>' .
+            'Email Address: <strong>' . $email . '</strong><br>' .
+            'Address: <strong>' . $street . ", " . $suburb . ", " . $state . ", " . $postcode . '</strong><br>' .
+            'Service: <strong>' . $service . '</strong><br>' .
+            'Message: <strong>' . $comment . '</strong>';
 
         $semi_rand = md5(time());
         $mime_boundary = "==Multipart_Boundary_x{$semi_rand}x";
